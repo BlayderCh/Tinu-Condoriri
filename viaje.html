@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información del Viaje – Tuni Condoriri</title>
+
+  <!-- FUENTES -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #e0f2f1, #eef3f1);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,77,64,0.6), rgba(0,77,64,0.6)),
+                  url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 56px;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+      text-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 35px;
+      margin-bottom: 35px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      color: #00796b;
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+
+    .item {
+      margin: 12px 0;
+      padding-left: 10px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 35px;
+      background: #26a69a;
+      color: white;
+      text-decoration: none;
+      border-radius: 35px;
+      font-size: 16px;
+      font-weight: 600;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #1e8e82;
+      transform: translateY(-3px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      color: #555;
+      background: #d0ece7;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 40px;
+      }
+
+      header p {
+        font-size: 16px;
+      }
+
+      .card {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>Información del Viaje</h1>
+    <p>Todo lo que necesitas saber para vivir una experiencia segura y memorable en Tuni Condoriri</p>
+  </header>
+
+  <div class="container">
+
+    <!-- HORARIO -->
+    <div class="card">
+      <h2>🕒 Horario del Viaje</h2>
+      <div class="item">05:30 – Desayuno</div>
+      <div class="item">06:00 – Preparación para el viaje</div>
+      <div class="item">06:30 – Punto de encuentro</div>
+      <div class="item">07:00 – Salida del transporte</div>
+      <div class="item">09:00 – Llegada a Tuni Condoriri</div>
+      <div class="item">09:30 – Trekking / descanso</div>
+      <div class="item">12:00 – Almuerzo</div>
+      <div class="item">13:00 – Trekking</div>
+      <div class="item">16:00 – Punto de encuentro</div>
+      <div class="item">16:30 – Retorno a La Paz</div>
+      <div class="item">18:30 – Llegada al Hotel “El Rosario”</div>
+      <div class="item">20:00 – Descanso / cena</div>
+    </div>
+
+    <!-- MEDIDAS DE SEGURIDAD -->
+    <div class="card">
+      <h2>🦺 Medidas de Seguridad</h2>
+      <div class="item">✔ Uso obligatorio de ropa abrigada</div>
+      <div class="item">✔ Seguir siempre las indicaciones del guía</div>
+      <div class="item">✔ No alejarse del grupo</div>
+      <div class="item">✔ Hidratación constante durante la caminata</div>
+      <div class="item">✔ Respeto al entorno natural</div>
+    </div>
+
+    <!-- INCLUYE -->
+    <div class="card">
+      <h2>🎒 ¿Qué Incluye el Viaje?</h2>
+      <div class="item">✔ Transporte ida y vuelta</div>
+      <div class="item">✔ Guía turístico especializado</div>
+      <div class="item">✔ Almuerzo</div>
+      <div class="item">✔ Botiquín de primeros auxilios</div>
+    </div>
+
+    <!-- RECOMENDACIONES -->
+    <div class="card">
+      <h2>⚠️ Recomendaciones</h2>
+      <div class="item">✔ Llevar gorra y bloqueador solar</div>
+      <div class="item">✔ Usar calzado adecuado para caminata</div>
+      <div class="item">✔ Llevar agua y snacks</div>
+      <div class="item">✔ Celular cargado o cámara fotográfica</div>
+    </div>
+
+    <a href="index.html" class="btn">⬅ Volver a la página principal</a>
+
+  </div>
+
+  <footer>
+    © Turismo Bolivia – Full Day Tuni Condoriri
+  </footer>
+
+</body>
+</html>
